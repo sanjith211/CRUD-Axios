@@ -1,0 +1,86 @@
+.user-container {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(239, 227, 211);
+}
+
+.add {
+    width: 100px;
+    margin: 1em;
+}
+
+.user-map{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.users {
+    margin: 1em;
+    border: 1px solid brown;
+    /* width: fit-content; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+}
+
+.add-users {
+    border: 1px solid orange;
+    width: 60em;
+    margin-left: 15em;
+}
+
+.add-container {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+}
+
+.edit-users {
+    border: 1px solid orange;
+    width: 60em;
+    margin-left: 15em;
+}
+
+.edit-container {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+    padding: 10px 0 10px 0;
+}
+
+.label {
+    margin: 10px;
+}
+
+.input {
+    margin: 5px;
+    width: 150px;
+}
+
+.add-user-button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-user-button {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
